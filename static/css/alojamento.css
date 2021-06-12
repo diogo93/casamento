@@ -3,25 +3,6 @@
     green = #248087 or rgb(36,128,135)
     grey = #717B7D or rgb(113,123,125)
 */
-body {
-    height: 100%;
-    width: 100%;
-    padding-top: 45px;
-    color: #717B7D;
-}
-#myContainer{
-    /* background-color: red; */
-    /* border: 1px solid blue; */
-}
-.myCol{
-    /* background-color: red; */
-    /* border: 1px solid red; */
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-.myColLine{
-    border: 1px solid #717B7D
-}
 .myImg{
     border-radius: 9px;
     /* opacity: 0.77; */

@@ -3,16 +3,6 @@
     green = #248087 or rgb(36,128,135)
     grey = #717B7D or rgb(113,123,125)
 */
-body {
-    height: 100%;
-    width: 100%;
-    padding-top: 55px;
-    /* background: url("/Users/diogoabreu/Documents/Casamento/website/static/img/desenhos_convite.jpg") no-repeat center center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; */
-}
 .backgroundImg{
     width: 99%;
     height: 91vh;

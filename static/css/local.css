@@ -3,11 +3,6 @@
     green = #248087 or rgb(36,128,135)
     grey = #717B7D or rgb(113,123,125)
 */
-body {
-    height: 100%;
-    width: 100%;
-    padding-top: 55px;
-}
 #myMapContainer{
     /* background-color: red; */
     /* border: 3px solid red; */

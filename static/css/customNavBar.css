@@ -13,6 +13,7 @@
 #navBarList{
     /* background-color: yellow; */
     width: 91%;
+    margin: auto;
 }
 .navBarItem{
     /* background-color: green; */

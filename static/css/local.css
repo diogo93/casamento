@@ -1,0 +1,38 @@
+/* Base colors:
+    pink = #FD6D68 or rgb(253,109,104)
+    green = #248087 or rgb(36,128,135)
+    grey = #717B7D or rgb(113,123,125)
+*/
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 55px;
+}
+#myMapContainer{
+    /* background-color: red; */
+    /* border: 3px solid red; */
+    /* height: 89vh; */
+    /* margin-top: 10vh; */
+}
+#myMapRow{
+    /* height: 81vh; */
+    /* border: 3px solid green; */
+}
+.myMapCol{
+    /* border: 3px solid green; */
+}
+#mapImg{
+    /* max-height: 39vh; */
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+h1{
+    font-size: 2.31rem;
+}
+h3{
+    margin-top: 3vh;
+}
+h5{
+    margin-top: 3vh;
+}

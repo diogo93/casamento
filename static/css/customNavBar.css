@@ -1,0 +1,61 @@
+/* Base colors:
+    pink = #FD6D68 or rgb(253,109,104)
+    green = #248087 or rgb(36,128,135)
+    grey = #717B7D or rgb(113,123,125)
+*/
+#myNavBar{
+    background-color: white;
+    /* opacity: 0.3; */
+}
+#collapsibleNavbar{
+    /* background-color: red; */
+}
+#navBarList{
+    /* background-color: yellow; */
+    width: 91%;
+}
+.navBarItem{
+    /* background-color: green; */
+}
+/* default font size is 1rem~16px */
+.navBarItemLink{
+    /* background-color: purple; */
+    /* border-radius: 8px;
+    border: 1px solid purple; */
+    /* font-size: 1.2rem; */
+    font-weight: 500;
+    color: #bdbdbd;
+}
+#myNavBar .navBarItemLink:hover{
+    color: #2E2E2E;
+    border-radius: 8px;
+}
+#myNavBar .active .navBarItemLink{
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(113,123,125, 0.51);
+}
+#myNavBar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,1,1, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#myNavBar .navbar-toggler {
+  /* border-color: rgb(255,102,203); */
+}
+/* .navbar-custom {
+    background-color: #ff5500;
+} */
+/* change the brand and text color */
+/* .navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+} */
+/* change the link color */
+/* .navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+} */
+/* change the color of active or hovered links */
+/* .navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: red;
+} */

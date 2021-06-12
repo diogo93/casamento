@@ -1,0 +1,51 @@
+/* Base colors:
+    pink = #FD6D68 or rgb(253,109,104)
+    green = #248087 or rgb(36,128,135)
+    grey = #717B7D or rgb(113,123,125)
+*/
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 45px;
+    color: #717B7D;
+}
+#myContainer{
+    /* background-color: red; */
+    /* border: 1px solid blue; */
+}
+.myCol{
+    /* background-color: red; */
+    /* border: 1px solid red; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.myColLine{
+    border: 1px solid #717B7D
+}
+.myImg{
+    border-radius: 9px;
+    /* opacity: 0.77; */
+}
+h3{
+    color: #2E2E2E;
+}
+a{
+    text-decoration: none !important;
+    color: #717B7D;
+}
+@media only screen and (min-width: 600px){
+    h3{
+        font-size: 1.11rem;
+    }
+    h5{
+        font-size: 0.99rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .myColImg{
+        border-bottom: 2px solid #717B7D;
+    }
+    .myColLine{
+        display: none;
+    }
+}

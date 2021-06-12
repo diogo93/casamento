@@ -1,0 +1,58 @@
+/* Base colors:
+    pink = #FD6D68 or rgb(253,109,104)
+    green = #248087 or rgb(36,128,135)
+    grey = #717B7D or rgb(113,123,125)
+*/
+body {
+    height: 100%;
+    width: 100%;
+    padding-top: 55px;
+    /* background: url("/Users/diogoabreu/Documents/Casamento/website/static/img/desenhos_convite.jpg") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; */
+}
+.backgroundImg{
+    width: 99%;
+    height: 91vh;
+    margin: 0px auto;
+    /* background-color: red;
+    border: 1px solid red; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/fundo_website_9x16.jpg");
+}
+@media only screen and (min-aspect-ratio: 1/1) {
+    .backgroundImg{
+        background-image: url("../img/fundo_website_3x2.jpg");
+    }
+}
+@media only screen and (min-aspect-ratio: 16/9) {
+    .backgroundImg{
+        background-image: url("../img/fundo_website_2x1.jpg");
+    }
+}
+/* #backgroundImageLandscape{
+    max-height: 93vh;
+    display: block;
+    margin: 0px auto;
+}
+#backgroundImagePortrait{
+    max-width: 100%;
+    display: none;
+    margin: 0px auto;
+}
+@media only screen and (max-width: 600px){
+    #backgroundImagePortrait{
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+    #backgroundImageLandscape{
+        max-height: 93vh;
+        display: none;
+        margin: 0px auto;
+    }
+} */

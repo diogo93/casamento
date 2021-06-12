@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Casamento Diogo e Mariana - RSVP</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="static/css/customNavBar.css">
+        <link rel="stylesheet" type="text/css" href="static/css/formulario.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-sm fixed-top" id="myNavBar">
+            <button class="navbar-toggler" id="myNavBarToggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav nav-fill" id="navBarList">
+                    <li class="nav-item navBarItem">
+                        <a class="nav-link navBarItemLink" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item navBarItem">
+                        <a class="nav-link navBarItemLink" href="local.html">Local</a>
+                    </li>
+                    <li class="nav-item active navBarItem">
+                        <a class="nav-link navBarItemLink" href="formulario.html">RSVP</a>
+                    </li>
+                    <li class="nav-item navBarItem">
+                        <a class="nav-link navBarItemLink" href="alojamento.html">Alojamento</a>
+                    </li>
+                    <li class="nav-item navBarItem">
+                        <a class="nav-link navBarItemLink" href="#">Prendas</a>
+                    </li>
+                    <li class="nav-item navBarItem">
+                        <a class="nav-link navBarItemLink" href="#">Lua de Mel</a>
+                    </li>
+                    <li class="nav-item navBarItem">
+                        <a class="nav-link navBarItemLink" href="#">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container pt-2 pb-3" id="myFormContainer">
+            <div class="row align-items-center" id="myFormRow">
+                <div class="col-12 myFormCol">
+                    <form class="needs-validation" novalidate action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSflvc8UhOjIWM-pLEBHNH2SXgFMJ9HgK_3TgJJtoD5Kvx0_jw/formResponse" target="_blank" method="POST">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="nome">Nome *</label>
+                                    <input required maxlength="30" name="entry.898051097"
+                                    type="text" class="form-control" placeholder="Primeiro e último nome" id="nome">
+                                    <div class="invalid-feedback">É obrigatório introduzir o seu nome</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="tlm">Telefone/Telemóvel *</label>
+                                    <input required maxlength="9" pattern="[0-9]{9}" name="entry.492306001" type="tel" class="form-control" placeholder="912592020" id="tlm">
+                                    <div class="invalid-feedback">Introduza um número de telefone/telemóvel válido</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input maxlength="30" name="entry.1061397318" type="email" class="form-control" placeholder="diogoisthebest@champ.djo" id="email">
+                                    <div class="invalid-feedback">Introduza um email válido</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="intAl">Intolerâncias Alimentares</label>
+                            <textarea maxlength="300" name="entry.1214041639" class="form-control" rows="3" placeholder="Quero um cheeseburger mas sem queijo, sem alface, sem tomate e sem cebola. E pode também tirar a carne. São duas fatias de pão se faz favor!" id="intAl"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="sugMus">Sugestões de Músicas</label>
+                            <textarea maxlength="300" name="entry.1607639526" class="form-control" rows="3" placeholder="Todas as músicas do Glee" id="sugMus"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="duv">Dúvidas, conselhos, ...</label>
+                            <textarea maxlength="300" name="entry.1742221231" class="form-control" rows="3" placeholder="Vai haver bar aberto?" id="duv"></textarea>
+                        </div>
+                        <button type="submit" value="Enviar" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="static/js/formulario.js"></script>
+    </body>
+</html>

@@ -3,6 +3,9 @@
     green = #248087 or rgb(36,128,135)
     grey = #717B7D or rgb(113,123,125)
 */
+body{
+    background-color: var(--my_green);
+}
 .backgroundImg{
     width: 99%;
     height: 91vh;
@@ -12,16 +15,16 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/fundo_website_9x16.jpg");
+    background-image: url("../img/fundo_website_9x16.png");
 }
 @media only screen and (min-aspect-ratio: 1/1) {
     .backgroundImg{
-        background-image: url("../img/fundo_website_3x2.jpg");
+        background-image: url("../img/fundo_website_3x2.png");
     }
 }
 @media only screen and (min-aspect-ratio: 16/9) {
     .backgroundImg{
-        background-image: url("../img/fundo_website_2x1.jpg");
+        background-image: url("../img/fundo_website_2x1.png");
     }
 }
 /* #backgroundImageLandscape{

@@ -25,7 +25,7 @@
     border: 1px solid purple; */
     /* font-size: 1.2rem; */
     font-weight: 500;
-    color: #bdbdbd;
+    color: var(--my_green);
 }
 #myNavBar .navBarItemLink:hover{
     color: #2E2E2E;
@@ -34,7 +34,7 @@
 #myNavBar .active .navBarItemLink{
     color: white;
     border-radius: 8px;
-    background-color: rgb(113,123,125, 0.51);
+    background-color: var(--my_green);
 }
 #myNavBar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1,1,1, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");

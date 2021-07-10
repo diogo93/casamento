@@ -1,0 +1,32 @@
+/* Base colors:
+    pink = #FD6D68 or rgb(253,109,104)
+    green = #248087 or rgb(36,128,135)
+    grey = #717B7D or rgb(113,123,125)
+*/
+.myImg{
+    border-radius: 9px;
+    /* opacity: 0.77; */
+}
+h3{
+    color: #2E2E2E;
+}
+a{
+    text-decoration: none !important;
+    color: var(--my_green);
+}
+/* @media only screen and (min-width: 600px){
+    h3{
+        font-size: 1.11rem;
+    }
+    h5{
+        font-size: 0.99rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .myColImg{
+        border-bottom: 2px solid #717B7D;
+    }
+    .myColLine{
+        display: none;
+    }
+} */

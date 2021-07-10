@@ -3,6 +3,14 @@
     green = #248087 or rgb(36,128,135)
     grey = #717B7D or rgb(113,123,125)
 */
+.myBtn{
+    background-color: var(--my_green);
+    border-color: var(--my_green);
+}
+.myBtn:hover{
+    background-color: var(--my_dark_green);
+    border-color: var(--my_dark_green);
+}
 #myFormContainer{
     /* background-color: red; */
     /* border: 3px solid red; */

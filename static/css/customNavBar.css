@@ -28,7 +28,7 @@
     color: var(--my_green);
 }
 #myNavBar .navBarItemLink:hover{
-    color: #2E2E2E;
+    color: var(--my_dark_green);
     border-radius: 8px;
 }
 #myNavBar .active .navBarItemLink{
